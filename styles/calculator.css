@@ -1,0 +1,286 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #212432;
+}
+
+input {
+  width: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+h2 {
+  margin-top: 0;
+  padding-left: 12px;
+  padding-top: 8px;
+}
+
+.city-temp {
+  padding-top: 8px;
+  background-color: rgba(226, 213, 245, 1);
+}
+
+.text-content {
+  color: #212432;
+  padding: 0 10px;
+  text-align: left;
+  justify-content: left;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  background-color: #ffffff;
+}
+.radio {
+  font-weight: 700;
+}
+
+.bmi-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+}
+
+.body-fat-container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+}
+
+.bmi-header {
+  height: 15%;
+  text-transform: uppercase;
+  color: #ddd;
+  background: #212432;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.bmi-body-us {
+  height: 60%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.one {
+  margin: 8px;
+}
+.bmi-cat {
+  margin-top: 24px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.bmi-table {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.bmi-table > thead,
+th,
+td {
+  text-align: left;
+  border: 1px solid #212432;
+}
+
+.bmi-highlight {
+  background-color: #e8d2fa;
+}
+.result-bmi {
+  height: 25%;
+  color: #ddd;
+  background: #212432;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: center;
+}
+.result-bmi > p {
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.bf-header {
+  height: 15%;
+  text-transform: uppercase;
+  color: #ddd;
+  background: #212432;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.bf-body-us {
+  height: 60%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.bf-details {
+  background-color: beige;
+  position: absolute;
+  font-size: 14px;
+}
+
+.bf-table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+.bf-table > thead,
+th,
+td {
+  text-align: left;
+  border: 1px solid #212432;
+  padding: 3px;
+}
+.bf-inputs {
+  display: flex;
+}
+
+.two {
+  width: 45px;
+}
+
+.result-bf {
+  height: 25%;
+  color: #ddd;
+  background: #212432;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: center;
+}
+
+.result-bf > div {
+  padding-top: 40px;
+}
+.result-bf div > p {
+  margin: 0;
+  padding-bottom: 3px;
+}
+
+.hide {
+  display: none;
+}
+
+#form-bmi div:first-of-type {
+  margin: 8px;
+}
+
+#form-bf div:first-of-type {
+  margin: 8px;
+}
+
+@media screen and (max-width: 300px) {
+  .bmi-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 500px;
+  }
+
+  .body-fat-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 669px) {
+  .side-container {
+    width: 10%;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .bmi-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 500px;
+  }
+
+  .body-fat-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 670px) and (max-width: 759px) {
+  .side-container {
+    width: 5%;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+
+  .container {
+    width: 90%;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .bmi-container {
+    margin-left: 20px;
+
+    width: 300px;
+    height: 500px;
+  }
+
+  .body-fat-container {
+    margin-left: 20px;
+
+    width: 300px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .side-container {
+    width: 10%;
+    height: 900px;
+    background-color: whitesmoke;
+  }
+
+  .container {
+    width: 80%;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  .bmi-container {
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 300px;
+    height: 500px;
+  }
+
+  .body-fat-container {
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 300px;
+    height: 500px;
+  }
+}
