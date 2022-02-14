@@ -29,3 +29,9 @@ _The Project has 3 pages Home, Workout Videos and Body calculators._
 
 1. Download the project folder.
 2. Run the program using a local server.
+
+### Images from the project
+
+![Landing](https://user-images.githubusercontent.com/76664637/153888522-ac3ac9e7-213b-47a8-b83d-9af50ff79e34.png)
+![Workout](https://user-images.githubusercontent.com/76664637/153888599-29ab02d3-a7fa-4b1d-8de9-f6a975e787ad.png)
+![Calculator](https://user-images.githubusercontent.com/76664637/153888664-87b4565f-0726-4bd7-9c38-b29396493fcd.png)
